@@ -1,0 +1,7 @@
+{
+  "name": "@trnos/worker",
+  "private": true,
+  "scripts": { "start": "tsx src/index.ts", "build": "tsc --outDir dist --target ES2022 --module commonjs src/index.ts", "check": "tsc --noEmit --target ES2022 --module commonjs src/index.ts" },
+  "devDependencies": { "tsx": "latest", "typescript": "latest" }
+}
+

@@ -1,0 +1,8 @@
+{
+  "name": "@trnos/api",
+  "private": true,
+  "scripts": { "start:dev": "nest start --watch", "build": "tsc --outDir dist --target ES2022 --module commonjs src/main.ts", "check": "tsc --noEmit --target ES2022 --module commonjs src/main.ts" },
+  "dependencies": { "@nestjs/common": "latest", "@nestjs/core": "latest", "reflect-metadata": "latest", "rxjs": "latest" },
+  "devDependencies": { "@nestjs/cli": "latest", "typescript": "latest" }
+}
+

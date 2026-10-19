@@ -1,0 +1,8 @@
+[build]
+builder = "NIXPACKS"
+buildCommand = "npm install && npm run build --workspace=@trnos/web"
+
+[deploy]
+startCommand = "npm run start --workspace=@trnos/web"
+healthcheckPath = "/"
+
